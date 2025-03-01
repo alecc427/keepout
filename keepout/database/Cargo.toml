@@ -1,0 +1,8 @@
+[package]
+name = "database"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+sqlx = { version = "0.8.3", features = ["chrono", "migrate", "runtime-tokio", "sqlite"] }
+tokio = { version = "1.43.0", features = ["full"] }

@@ -1,0 +1,8 @@
+[package]
+name = "keepout"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+client = { path = "client" }
+tokio = { version = "1.43.0", features = ["full"] }
